@@ -13,8 +13,8 @@ document.addEventListener("DOMContentLoaded", function () {
     headers: {
       accept: "application/json",
       Authorization:
-        "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmM2ZkOTY3ZGY4MDk2N2YxMzhkMjEyNWI5YWRkYTdlOCIsInN1YiI6IjY1OTY5NmRmYTZjMTA0MTFhOWZhNjBjNCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Ldu5SC3JcH2TndeO8jWD7dOAS6EPxB_EQaLFGaIpQu0",
-    },
+        "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmM2ZkOTY3ZGY4MDk2N2YxMzhkMjEyNWI5YWRkYTdlOCIsInN1YiI6IjY1OTY5NmRmYTZjMTA0MTFhOWZhNjBjNCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Ldu5SC3JcH2TndeO8jWD7dOAS6EPxB_EQaLFGaIpQu0"
+    }
   };
 
   /**
@@ -45,8 +45,6 @@ document.addEventListener("DOMContentLoaded", function () {
   // 내부 fetch에서 rated 영화 데이터를 못 가져오면 에러를 밷습니다.
 });
 
-
-
 function movieId(id) {
   alert(`아이디는 : ${id}인데~~`);
 } // 함수의 매개변수 id는 34열 온클릭 이벤트의 함수를 넣어 매게변수를 받는다.
@@ -62,7 +60,7 @@ function searchMovie() {
     // 20개의 카드를 사용하기 위해 위에 스크립트에서 forEach문을 돌린 객체를 전역 변수로 돌려서 끌어옴
     // filter 메소드를 사용하여 원하는 객체만 반환\
 
-    return movie.title.toLowerCase().includes(searchTagValue);  // 다 소문자 
+    return movie.title.toLowerCase().includes(searchTagValue); // 다 소문자
     // 리턴은 true를 반환한다.
     // return false를 하게 되면 빈 배열이 되어 버린다.
   });

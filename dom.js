@@ -1,4 +1,5 @@
-{/* <aside>
+{
+  /* <aside>
 💡 1.  문서 객체 생성과 선택
 
 - `document.createElement(tagName)` : 새로운 HTML 요소를 생성합니다.
@@ -27,4 +28,5 @@
 - `window.location.href` : 현재 페이지의 URL을 가져옵니다.
 - `window.alert(message)` : 경고 메시지를 출력합니다.
 - `window.confirm(message)` : 확인 메시지를 출력하고 사용자의 답변에 따라 Boolean 값을 반환합니다.
-</aside> */}
+</aside> */
+}

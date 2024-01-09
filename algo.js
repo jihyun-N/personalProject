@@ -1,16 +1,8 @@
-let str = "123";
-
-
-
 function solution(n) {
-    let answer = 0;
-    
-    for(let i=0; i<n.length; i++) {
-        answer += parseInt(n[i]);
+    var answer = 0;
+    for (let i = 2; i < n; i++) {
+        console.log(i)
+        
     }
-    
     return answer;
 }
-
-
-console.log(solution(str));
